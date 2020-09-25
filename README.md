@@ -1,1 +1,1 @@
-# gify
+# giphy
