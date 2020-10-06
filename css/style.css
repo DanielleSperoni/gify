@@ -1,0 +1,29 @@
+body {
+  background-color: #1d1f22;
+  color: white;
+}
+
+.jumbotron {
+  background-color: black;
+}
+
+.btn-search input{
+  margin: 10px;
+}
+
+@media screen and (min-width: 576px){
+  .btn-search input{
+    margin: 15px;
+  }
+}
+
+#container {
+  display: grid;
+}
+
+
+.gif-image {
+  margin: 1rem 1.5rem;
+  width: 350px;
+  align-items: center;
+}
