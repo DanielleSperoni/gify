@@ -17,13 +17,22 @@ body {
   }
 }
 
-#container {
-  display: grid;
+#gifResultsContainer{
+  display: flex;
+  justify-content: center;
 }
 
-
-.gif-image {
+.gif-image{
   margin: 1rem 1.5rem;
-  width: 350px;
-  align-items: center;
+  width: 200px;
+}
+
+@media screen and (min-width: 576px){
+  #container {
+    display: grid;
+  }
+  .gif-image {
+    margin: 1rem 1.5rem;
+    width: 350px;
+  }
 }
