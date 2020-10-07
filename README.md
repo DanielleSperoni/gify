@@ -1,4 +1,4 @@
-### About:
+## About:
 [//]: # (1 sentence description of what your project is about)
 A client-side giphy search.
 
